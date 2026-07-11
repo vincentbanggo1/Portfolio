@@ -75,7 +75,7 @@ const PROJECTS = [
     emoji: "🔭",
     grad: "linear-gradient(135deg,#1e0e30,#30004a)",
     title: "Nasa-Project",
-    desc: "Interactive data visualization with real-time charts, filters, and export for business metrics.",
+    desc: "A full-stack mission control app where users can schedule, browse, and abort space launches. Built with React, Node.js/Express, and MongoDB to demonstrate full-stack development and REST API integration skills.",
     tags: ["React.js", "Node.js", "Express.js", "JavaScript (ES6)", "HTML5", "CSS3", "RESTful APIs", ],
     gh: "https://github.com/vincentbanggo1/Nasa-Project",
   },
@@ -382,8 +382,8 @@ function About() {
         {/* Text side */}
         <div>
           {[
-            <>Hey there! I'm <strong style={{ color: G.accent2 }}>Vincent</strong>, a developer based in India who loves building things for the web. I have a strong passion for creating elegant solutions to complex problems.</>,
-            <>I specialize in building full-stack applications with a focus on performance, accessibility, and great user experiences. When I'm not coding,</>,
+            <>Hey there! I'm <strong style={{ color: G.accent2 }}>Vincent</strong>, a developer based in Philippines who loves building things for the web. I have a strong passion for creating elegant solutions to complex problems.</>,
+            <>I specialize in building full-stack applications with a focus on performance, accessibility, and great user experiences.,</>,
             <>I believe that the best code is not just functional, but also <strong style={{ color: G.accent2 }}>readable, maintainable, and purposeful</strong>.</>,
           ].map((p, i) => (
             <p key={i} style={{ color: G.muted, lineHeight: 1.8, fontSize: "1rem", marginBottom: "1rem" }}>{p}</p>
